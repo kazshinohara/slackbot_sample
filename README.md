@@ -1,6 +1,8 @@
 # Slackbot Sample
 
 Pythonで簡単にSlack botを作りCloud Foundry上にデプロイしたい人向けのサンプル
+ライブラリは↓使います。
+https://github.com/lins05/slackbot
 
 
 # Usage
