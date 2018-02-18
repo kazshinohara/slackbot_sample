@@ -7,7 +7,7 @@ https://github.com/lins05/slackbot
 
 # Usage
 
-1. https://api.slack.com/appsからCreate New AppをクリックしBot userを作成する。
+1. https://api.slack.com/apps からCreate New App をクリックしBot userを作成する。
 2. 適当なチャンネルに1.で作成したBotをInviteする
 3. このレポジトリをローカルにクローンする
 
