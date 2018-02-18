@@ -26,7 +26,7 @@ $ cd slackbot_sample
 
 ```
 
-6. Cloud FoundryにBotをPushする
+5. Cloud FoundryにBotをPushする
 
 ```sh
 $ cf login -a URL -u USER -p PASS
