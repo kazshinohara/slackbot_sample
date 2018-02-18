@@ -1,23 +1,22 @@
 # Slackbot Sample
 
-Pythonで簡単にSlack botを作りCloud Foundry上にデプロイしたい人向けのサンプル  
-ライブラリは↓使います  
+Pythonで簡単にSlack botを作りCloud Foundry上にデプロイしたい人向けのサンプル
+ライブラリは↓使います
 https://github.com/lins05/slackbot
 
 
 # Usage
 
-1. https://api.slack.com/bot-users のcreating a new bot userをクリックして新しくBotを作成する
+1. https://api.slack.com/appsからCreate New AppをクリックしBot userを作成する。
 2. 適当なチャンネルに1.で作成したBotをInviteする
-3. imgフォルダにあるpngファイルをすべてファイル名をemoji名としてslackに登録する
-4. Botを取得する
+3. このレポジトリをローカルにクローンする
 
 ```sh
 $ git clone https://github.com/kazshinohara/slackbot_sample.git
 $ cd slackbot_sample
 ```
 
-5. 取得したslackbot_sampleディレクトリのmanifest.ymlに環境変数を追加する
+4. slackbot_sampleディレクトリのmanifest.ymlに環境変数を追加する
 
 ```yaml
 ---
